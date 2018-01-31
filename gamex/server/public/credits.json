@@ -1,0 +1,19 @@
+[
+  {
+    "id": 0,
+    "creditTitle": "Initial Score",
+    "picture": "../images/captain.png",
+    "gameName": "Captain Roger",
+    "creditName": "1000 Initial Score",
+    "price": "$2"
+  },
+
+  {
+    "id": 1,
+    "creditTitle": "Initial Score",
+    "picture": "../images/captain.png",
+    "gameName": "Captain Roger",
+    "creditName": "2000 Initial Score",
+    "price": "$5"
+  }
+]

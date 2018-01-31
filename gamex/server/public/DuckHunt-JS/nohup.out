@@ -1,0 +1,289 @@
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+HardSourceWebpackPlugin is writing to a new confighash path for the first time: /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/node_modules/.cache/hardsource/f2affd507d77b099677eadaacbb1f9810a13809b9132d6a63117f5ecf63a0c63
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+(node:10769) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 6944ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.22 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+   [97] ./~/pixi.js/lib/index.js 3.03 kB {0} [built]
+  [135] ./~/lodash/util.js 1.18 kB {0} [built]
+  [153] ./~/url/url.js 23.3 kB {0} [built]
+  [304] ./main.js 351 bytes {0} [built]
+  [305] (webpack)-dev-server/client?http://localhost:8080 4.66 kB {0} [built]
+  [309] ./src/modules/Game.js 13.5 kB {0} [built]
+  [311] ./src/modules/Stage.js 11.7 kB {0} [built]
+  [314] ./~/events/events.js 8.33 kB {0} [built]
+  [317] ./src/data/levels.json 627 bytes {0} [built]
+  [648] ./~/sockjs-client/lib/entry.js 244 bytes {0} [built]
+  [674] ./~/strip-ansi/index.js 161 bytes {0} [built]
+  [677] ./~/url/util.js 314 bytes {0} [built]
+  [678] (webpack)-dev-server/client/socket.js 856 bytes {0} [built]
+  [680] (webpack)/hot/emitter.js 77 bytes {0} [built]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 667 hidden modules
+webpack: Compiled successfully.
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 1995ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.21 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 681 hidden modules
+webpack: Compiled successfully.
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1523:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/deepu/.npm/_logs/2017-12-17T19_07_32_187Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1523:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/deepu/.npm/_logs/2017-12-17T19_14_16_344Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1523:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/deepu/.npm/_logs/2017-12-17T19_21_07_422Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1523:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/deepu/.npm/_logs/2017-12-17T19_23_25_506Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 2079ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.21 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 681 hidden modules
+webpack: Compiled successfully.
+
+> DuckHunt-JS@3.1.0 start /home/deepu/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1523:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/deepu/.npm/_logs/2017-12-17T20_18_35_856Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+HardSourceWebpackPlugin is writing to a new confighash path for the first time: /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/node_modules/.cache/hardsource/c79da126a3806d3a7b981a77a2183d280a4bfc392e6e61d9459ca574947999ab
+(node:3130) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 10711ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.22 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+   [97] ./~/pixi.js/lib/index.js 3.03 kB {0} [built]
+  [135] ./~/lodash/util.js 1.18 kB {0} [built]
+  [153] ./~/url/url.js 23.3 kB {0} [built]
+  [304] ./main.js 351 bytes {0} [built]
+  [305] (webpack)-dev-server/client?http://localhost:8080 4.66 kB {0} [built]
+  [309] ./src/modules/Game.js 13.5 kB {0} [built]
+  [311] ./src/modules/Stage.js 11.7 kB {0} [built]
+  [314] ./~/events/events.js 8.33 kB {0} [built]
+  [317] ./src/data/levels.json 627 bytes {0} [built]
+  [648] ./~/sockjs-client/lib/entry.js 244 bytes {0} [built]
+  [674] ./~/strip-ansi/index.js 161 bytes {0} [built]
+  [677] ./~/url/util.js 314 bytes {0} [built]
+  [678] (webpack)-dev-server/client/socket.js 856 bytes {0} [built]
+  [680] (webpack)/hot/emitter.js 77 bytes {0} [built]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 667 hidden modules
+webpack: Compiled successfully.
+
+> DuckHunt-JS@3.1.0 start /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 4467ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.21 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 681 hidden modules
+webpack: Compiled successfully.
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! DuckHunt-JS@3.1.0 start: `webpack-dev-server`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the DuckHunt-JS@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/baapuji/.npm/_logs/2018-01-06T10_57_43_294Z-debug.log
+
+> DuckHunt-JS@3.1.0 start /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 4549ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.21 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 681 hidden modules
+webpack: Compiled successfully.
+
+> DuckHunt-JS@3.1.0 start /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS
+> webpack-dev-server
+
+Project is running at http://localhost:8080/
+webpack output is served from /
+Content not from webpack is served from /home/baapuji/Desktop/blockchaincon_hackathon/gamex/server/public/DuckHunt-JS/dist
+Hash: 3f4fad16fc80b336558d
+Version: webpack 2.7.0
+Time: 3661ms
+          Asset     Size  Chunks                    Chunk Names
+    duckhunt.js  2.61 MB       0  [emitted]  [big]  duckhunt
+duckhunt.js.map  3.21 MB       0  [emitted]         duckhunt
+chunk    {0} duckhunt.js, duckhunt.js.map (duckhunt) 2.55 MB [entry] [rendered]
+  [681] multi (webpack)-dev-server/client?http://localhost:8080 ./main.js 40 bytes {0} [built]
+     + 681 hidden modules
+webpack: Compiled successfully.

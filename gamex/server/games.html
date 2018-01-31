@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GameX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gaming Login Form Widget Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements" />
+    <script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+    function hideURLbar() { window.scrollTo(0, 1); }
+    </script>
+    <link href="css/login_style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+
+    <div class="padding-all">
+        <div class="header">
+            <h1> GameX</h1>
+        </div>
+        <div class="design-w3l">
+            
+            <div id="games" onclick="rogers()" class="mail-form-agile big_white">
+                <img src="./images/captain.png">
+            </div>
+            <br>
+            <div id="marketplace" onclick="duckhunt()" class="mail-form-agile big_white">
+                <img src="./images/duck-hunt.png">
+            </div>
+
+            <div class="clear"> </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        function duckhunt(argument) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == XMLHttpRequest.DONE) {
+                    window.location = "http://localhost:8080";
+                    //alert(xhttp.responseText);
+                }
+            }
+            xhttp.open("GET","market.html",true);
+            xhttp.send();
+        }
+
+        function rogers(argument) {
+            window.location = "http://localhost:3000/rogers";
+        }
+    </script>
+
+</body>
+
+</html>
